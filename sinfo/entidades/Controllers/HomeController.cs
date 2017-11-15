@@ -26,5 +26,10 @@ namespace entidades.Controllers
 
             return View();
         }
+
+        public ActionResult Plantilla()
+        {       
+            return View();
+        }
     }
 }
