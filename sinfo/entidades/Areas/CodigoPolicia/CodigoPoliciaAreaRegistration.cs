@@ -17,7 +17,7 @@ namespace entidades.Areas.CodigoPolicia
             context.MapRoute(
                 "CodigoPolicia_default",
                 "CodigoPolicia/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
+                new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
