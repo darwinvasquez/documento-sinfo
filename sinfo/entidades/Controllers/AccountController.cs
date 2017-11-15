@@ -55,6 +55,14 @@ namespace entidades.Controllers
         //
         // GET: /Account/Login
         [AllowAnonymous]
+        public ActionResult InicioSesion()
+        {          
+            return View();
+        }
+
+        //
+        // GET: /Account/Login
+        [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;

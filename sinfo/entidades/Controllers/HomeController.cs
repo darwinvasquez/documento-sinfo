@@ -31,5 +31,10 @@ namespace entidades.Controllers
         {       
             return View();
         }
+
+        public ActionResult Portal()
+        {
+            return View();
+        }
     }
 }
